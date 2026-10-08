@@ -80,8 +80,10 @@ export const statusTheme = {
   COMPLETED: { bg: colors.successSoft, fg: '#047857' },
   CANCELLED: { bg: colors.dangerSoft, fg: '#B91C1C' },
   AVAILABLE: { bg: colors.successSoft, fg: '#047857' },
-  OCCUPIED: { bg: colors.dangerSoft, fg: '#B91C1C' },
+  OCCUPIED: { bg: colors.warningSoft, fg: '#B45309' },
   RESERVED: { bg: colors.infoSoft, fg: '#1D4ED8' },
+  BILLING: { bg: colors.dangerSoft, fg: '#B91C1C' },
+  OUT_OF_SERVICE: { bg: '#F1F5F9', fg: '#64748B' },
 };
 
 export default { colors, spacing, radius, shadow, statusTheme };
